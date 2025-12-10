@@ -1,0 +1,19 @@
+# Ignorar entornos virtuales
+venv/
+.venv/
+
+# Ignorar caches de Python
+__pycache__/
+*.pyc
+
+# Archivos de entorno
+.env
+
+# Ignorar carpetas generadas por editores
+.vscode/
+.idea/
+
+# Otros
+dist/
+build/
+*.egg-info/

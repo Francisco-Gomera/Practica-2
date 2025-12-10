@@ -1,0 +1,5 @@
+# Dependencias necesarias para el proyecto
+fastapi
+pydantic
+uvicorn
+
