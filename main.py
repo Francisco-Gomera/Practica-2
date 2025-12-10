@@ -40,18 +40,6 @@ class ArbolProductosBST:
             else:
                 self._insertar_rec(nodo.der, producto)
 
-    def _insertar_rec(self, nodo: NodoProducto, producto: Producto):
-        if producto.id < nodo.producto.id:
-            if nodo.izq is None:
-                nodo.izq = NodoProducto(producto)
-            else:
-                self._insertar_rec(nodo.izq, producto)
-        else:
-            if nodo.der is None:
-                nodo.der = NodoProducto(producto)
-            else:
-                self._insertar_rec(nodo.der, producto)
-
     def inorder(self):
         resultado = []
         self._inorder_rec(self.raiz, resultado)
